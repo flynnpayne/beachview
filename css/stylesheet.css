@@ -1,0 +1,390 @@
+/* RESET */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    /* Cancel out some differences between browser defaults */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ 
+* {
+    /* The width of an element will be the size of its border box,
+       not its content box (which is the normal default). */
+    box-sizing: border-box;
+}
+
+/* == END RESET =========================================== */
+
+/* Grid & Flex */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 20rem 50rem 1fr;
+}
+
+header, footer {
+    grid-column: 2/4;
+}
+
+aside {
+    grid-column: 2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-content-torquay {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+#home-content-1, #home-content-2 {
+    display: flex;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20rem 50rem;
+}
+
+nav, #logo-div {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#contactinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer, #findus, #callus, #emailus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#aside-content-1, #aside-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home-content-christmas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+/* Layout */
+
+header {
+    padding: 2rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#home-content-1 p, #home-content-2 p {
+    width: 25em;
+    padding: 4rem 3rem 4rem 3rem;
+}
+
+#home-content-torquay p {
+    width: 40rem;
+}
+
+.short {
+    width: 25rem;
+    padding-bottom: 4rem;
+}
+
+.christmas-text {
+    padding: 0 0 2rem 0;
+}
+
+.long {
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+#attract1-header, #attract2-header, #attract3-header, #attract4-header, #attract5-header, #attract6-header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+#toggle-off1, #toggle-off2, #toggle-off3, #toggle-off4, #toggle-off5, #toggle-off6 {
+    display: none;
+}
+
+#attract1-content p, #attract2-content p, #attract3-content p, #attract4-content p, #attract5-content p, #attract6-content p {
+    padding: 1rem 0 0 0;
+}
+
+.attraction-link {
+    margin: 1rem 0 0 0;
+    border-radius: 4rem;
+    padding: 0.5em 1em;
+    background-color: #FFB72D;
+    border-style: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+#toggle-on1, #toggle-off1, #toggle-on2, #toggle-off2, #toggle-on3, #toggle-off3, #toggle-on4, #toggle-off4, #toggle-on5, #toggle-off5, #toggle-on6, #toggle-off6 {
+    border-radius: 4rem;
+    padding: 0.5em 1em;
+    background-color: #FFB72D;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+/* #attract1-content, #attract2-content, #attract3-content, #attract4-content, #attract5-content, #attract6-content {
+    padding: 2rem 3rem 2rem 3rem;
+} */
+
+main h1 {
+    padding-bottom: 4rem;
+}
+
+#home-content-1, #home-content-2, #home-content-torquay, #home-content-attract {
+    width: 100%;
+}
+
+main h2 {
+    padding: 4rem 0 1rem 0;
+}
+
+#home-content-torquay p {
+    padding: 1rem 0;
+}
+
+nav a {
+    padding: 1rem 1rem;
+}
+
+main {
+    padding: 4rem;
+}
+
+#aside-content-1, #aside-content-2 {
+    padding: 2rem;
+}
+
+#findus, #callus, #emailus {
+    padding: 0 6rem 3rem 6rem;
+}
+
+#onespace {
+    margin-bottom: 3rem;
+}
+
+#attract1-content, #attract2-content, #attract3-content, #attract4-content, #attract5-content, #attract6-content {
+    visibility: hidden;
+    transition: visibility .6s, max-height .6s, padding .6s;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#attract1-content.open, #attract2-content.open, #attract3-content.open, #attract4-content.open, #attract5-content.open, #attract6-content.open {
+    visibility: visible;
+    max-height: 40em;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#break {
+    width: 15em;
+    text-align: center;
+}
+
+footer {
+    padding: 4em 0;
+}
+
+#attract1-header, #attract2-header, #attract3-header, #attract4-header, #attract5-header, #attract6-header {
+    padding: 0 1rem;
+}
+
+footer h2 {
+    padding-bottom: 0.5em;
+}
+
+#aside-content-1 {
+    height: 20rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#aside-content-2 p {
+    padding-bottom: 1em;
+}
+
+main h4 {
+    padding-bottom: 0.5rem;
+}
+
+.card {
+    margin: 2em 0;
+}
+
+/* Images */
+
+#logo {
+    width: 15em;
+}
+
+#home-image {
+    width: 100%;
+}
+
+.home-image-2 {
+    width: 25em;
+    padding: 4rem 0;
+}
+
+svg {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.content-image {
+    width: 100%;
+}
+
+.christmas-image {
+    width: 23rem;
+    padding-bottom: 3rem;
+}
+
+/* Colour */
+
+html {
+    background-color: lightgrey;
+}
+
+header, main, footer {
+    color: #333;
+    background-color: white;
+}
+
+#attract1-content, #attract2-content, #attract3-content, #attract4-content, #attract5-content, #attract6-content {
+    background-color: #E6E6E6;
+}
+
+main h3 {
+    color: white;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    background-color: #14C5C8;
+}
+
+nav #current {
+    background-color: #16DBDF;
+}
+
+footer {
+    background-color: #0A2733;
+    color: #eeeeee;
+}
+
+#attract1-header, #attract2-header, #attract3-header, #attract4-header, #attract5-header, #attract6-header {
+    background-color: #114255;
+}
+
+#aside-content-1 {
+    background-color: #0F3949;
+}
+
+aside {
+    color: white;
+    background-color: #154F66;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 1rem;
+    background-color: #114255;
+}
+
+/* Typography */
+
+html {
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Serif', serif;
+}
+
+main h2, main h3 {
+    font-size: 1.75rem;
+}
+
+aside h2 {
+    font-size: 1.75rem;
+}
+
+main h4 {
+    font-size: 1.2rem;
+}
+
+main h5 {
+    font-size: 1rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}

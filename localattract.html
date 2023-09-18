@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=PT+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d05775d913.js" crossorigin="anonymous"></script>
+
+    <title>Local Attractions - Exmouth View Hotel</title>
+</head>
+<body>
+    <header>
+        <div id="logo-div">
+            <figure id="logo"><img src="images/logo.png" alt="Exmouth View Hotel logo"></figure>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="torquayinfo.html">Torquay Information</a></li>
+                <li><a id="current" href="localattract.html">Local Attractions</a></li>
+                <li><a href="christmas.html">Christmas 2023</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <div id="aside-content-1">
+            <h2>Want to make a booking?</h2>
+            <p><strong>Call us on 180-332-7307</strong></p>
+            <p>We look forward to hearing from you</p>
+        </div>
+        <div id="aside-content-2">
+            <h2>Reviews</h2>
+            <div class="card">
+                <p>"I recently stayed at the Exmouth View Hotel and was blown away by the stunning views of the sea from my room. The staff were incredibly friendly and accommodating, making my stay even more enjoyable. The room was clean and comfortable, and I would definitely recommend this hotel to anyone looking for a relaxing seaside getaway."</p>
+                <p><span class="italics">-Sarah Johnson</span></p>
+                <i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-regular fa-star"></i>            
+            </div>
+            <div class="card">
+                <p>"I had a great stay at the Exmouth View Hotel. The location was perfect, just a short walk from the beach and local restaurants. The room was spacious and well-appointed, with all the amenities I needed for a comfortable stay. The staff were helpful and attentive, making sure I had everything I needed. Overall, a great choice for anyone visiting Exmouth."</p>
+                <p><span class="italics">-Micheal Williams</span></p>
+                <i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-solid fa-star" style="color: #ffb81f;"></i><i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <h1>Local Attractions</h1>
+        <p class="long">With its stunning seafront, stylish marina and beautiful beaches meandering the length of this beautiful South Devon town, Torquay is noted for its huge range of year-round activities. Part of the glorious UNESCO accredited English Riviera Global Geo-park, it’s a perfect haven for families with tiny tots or teenagers, singles with a taste for adventure, couples looking for romance or experienced travelers looking for something new.</p>
+        <div id="home-content-attract">
+            <div id="attract1-header">
+                <h3>Babbacombe Theatre</h3>
+                <button id="toggle-on1" onclick="toggleSlide1()">Open</button>
+                <button id="toggle-off1" onclick="toggleSlide1()">Close</button>
+            </div>
+            <div id="attract1-content">
+                <figure id="babbacombe-theater"><img src="images/babbacombe-theater.jpg" alt="Babbacombe Theater"></figure>
+                <p>Situated on the English Riviera's beautiful Babbacombe Downs in Torquay, South Devon. Arguably Babbacombe Theatre is one of the most popular Theatres in the South West.</p>
+                <p>There is always a show performing here so check their website for show times and information</p>
+                <button class="attraction-link"><a class="link" href="https://www.babbacombe-theatre.com/" target="_blank">To the website</a></button>
+            </div>
+            <div id="attract2-header">
+                <h3>Torquay Museum</h3>
+                <button id="toggle-on2" onclick="toggleSlide2()">Open</button>
+                <button id="toggle-off2" onclick="toggleSlide2()">Close</button>
+            </div>
+            <div id="attract2-content">
+                <figure id="torquay-museum"><img src="images/torquay-museam.jpg" alt="Torquay Museum"></figure>
+                <p>Come to Torquay Museum and enjoy all the fun and family activities we have on offer - exhibitions, activities, events, lectures, trails and more.</p>
+                <p>Visit their website for more information and booking times</p>
+                <button class="attraction-link"><a class="link" href="https://torquaymuseum.org/" target="_blank">To the website</a></button>
+            </div>
+            <div id="attract3-header">
+                <h3>English Riviera Centre</h3>
+                <button id="toggle-on3" onclick="toggleSlide3()">Open</button>
+                <button id="toggle-off3" onclick="toggleSlide3()">Close</button>
+            </div>
+            <div id="attract3-content">
+                <figure id="riviera-centre"><img src="images/riviera-centre.jpg" alt="Riviera Centre"></figure>
+                <p>Located on Torquay seafront, the Riviera International Centre is a purpose built conference, exhibition and leisure centre.</p>
+                <p>Visit the website for more information.</p>
+                <button class="attraction-link"><a class="link" href="https://www.englishriviera.co.uk/" target="_blank">To the website</a></button>
+            </div>
+            <div id="attract4-header">
+                <h3>Agatha Christie Mile</h3>
+                <button id="toggle-on4" onclick="toggleSlide4()">Open</button>
+                <button id="toggle-off4" onclick="toggleSlide4()">Close</button>
+            </div>
+            <div id="attract4-content">
+                <figure id="agatha-christe"><img src="images/agatha-christie-mile.jpg" alt="Agatha Christe Mile"></figure>
+                <p>Starting at either the Imperial Hotel or the Grand Hotel, the Agatha Christie Mile takes you to some of the places that were inspirational in her life and works, with seven unique plaques to find along way.</p>
+                <p>Visit the website for more information.</p>
+                <button class="attraction-link"><a class="link" href="https://www.englishriviera.co.uk/things-to-do/agatha-christie-mile-p1291663" target="_blank">To the website</a></button>
+            </div>
+            <div id="attract5-header">
+                <h3>Kent's Cavern</h3> 
+                <button id="toggle-on5" onclick="toggleSlide5()">Open</button>
+                <button id="toggle-off5" onclick="toggleSlide5()">Close</button>
+            </div>
+            <div id="attract5-content">
+                <figure id="kents-cavern"><img src="images/kents-cavern.jpg" alt="Kent's Cavern"></figure>
+                <p>Kents Cavern is one of the most important Stone Age sites in Europe and one of Britain's best showcaves! On your visit you'll go back to a time when the cave was home to ancient humans, sheltering from extreme weather, making fires, shaping tools and hunting Ice Age animals.</p>
+                <p>Visit the website for more information.</p>
+                <button class="attraction-link"><a class="link" href="https://www.kents-cavern.co.uk/" target="_blank">To the website</a></button>
+            </div>
+            <div id="attract6-header">
+                <h3>Bygones</h3> 
+                <button id="toggle-on6" onclick="toggleSlide6()">Open</button>
+                <button id="toggle-off6" onclick="toggleSlide6()">Close</button>
+            </div>
+            <div id="attract6-content">
+                <figure id="bygones"><img src="images/bygones.jpg" alt="Bygones"></figure>
+                <p>Devon’s heritage family attraction packed with over 100 years of British History, Authentic Curiosities & Quirky Memorabilia</p>
+                <p>Visit the website for more information.</p>
+                <button class="attraction-link"><a class="link" href="https://bygones.co.uk/" target="_blank">To the website</a></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contactinfo">
+            <div id="findus">
+                <h2>Find Us</h2>
+                <p id="break">St Albans Road, Babbacombe, Torquay, South Devon, TQ1 3LG</p>
+            </div>
+            <div id="callus">
+                <h2>Call Us</h2>
+                <p>180-332-7307</p>
+            </div>
+            <div id="emailus">
+                <h2>Email Us</h2>
+                <p>info@exmouthview.com</p>
+            </div>
+        </div>
+        
+        <p>&copy; Copyright Exmouth View Hotel 2023</p>
+    </footer>
+    <script>
+
+        function toggleSlide1 () {
+        const content = document.getElementById("attract1-content")
+        const buttonOn = document.getElementById("toggle-on1")
+        const buttonOff = document.getElementById("toggle-off1")
+            if (content.classList.contains('open')) {
+                content.classList.remove('open')
+                buttonOn.style.display = "block"
+                buttonOff.style.display = "none"
+            } else {
+                content.classList.add('open')
+                buttonOn.style.display = "none"
+                buttonOff.style.display = "block"
+            }
+        }        
+
+        function toggleSlide2 () {
+        const content = document.getElementById("attract2-content")
+        const buttonOn = document.getElementById("toggle-on2")
+        const buttonOff = document.getElementById("toggle-off2")
+            if (content.classList.contains('open')) {
+                content.classList.remove('open')
+                buttonOn.style.display = "block"
+                buttonOff.style.display = "none"
+            } else {
+                content.classList.add('open')
+                buttonOn.style.display = "none"
+                buttonOff.style.display = "block"
+            }
+        }        
+
+        function toggleSlide3 () {
+        const content = document.getElementById("attract3-content")
+        const buttonOn = document.getElementById("toggle-on3")
+        const buttonOff = document.getElementById("toggle-off3")
+            if (content.classList.contains('open')) {
+                content.classList.remove('open')
+                buttonOn.style.display = "block"
+                buttonOff.style.display = "none"
+            } else {
+                content.classList.add('open')
+                buttonOn.style.display = "none"
+                buttonOff.style.display = "block"
+            }
+        }        
+
+        function toggleSlide4 () {
+        const content = document.getElementById("attract4-content")
+        const buttonOn = document.getElementById("toggle-on4")
+        const buttonOff = document.getElementById("toggle-off4")
+            if (content.classList.contains('open')) {
+                content.classList.remove('open')
+                buttonOn.style.display = "block"
+                buttonOff.style.display = "none"
+            } else {
+                content.classList.add('open')
+                buttonOn.style.display = "none"
+                buttonOff.style.display = "block"
+            }
+        }        
+
+        function toggleSlide5 () {
+        const content = document.getElementById("attract5-content")
+        const buttonOn = document.getElementById("toggle-on5")
+        const buttonOff = document.getElementById("toggle-off5")
+            if (content.classList.contains('open')) {
+                content.classList.remove('open')
+                buttonOn.style.display = "block"
+                buttonOff.style.display = "none"
+            } else {
+                content.classList.add('open')
+                buttonOn.style.display = "none"
+                buttonOff.style.display = "block"
+            }
+        }        
+
+        function toggleSlide6 () {
+        const content = document.getElementById("attract6-content")
+        const buttonOn = document.getElementById("toggle-on6")
+        const buttonOff = document.getElementById("toggle-off6")
+            if (content.classList.contains('open')) {
+                content.classList.remove('open')
+                buttonOn.style.display = "block"
+                buttonOff.style.display = "none"
+            } else {
+                content.classList.add('open')
+                buttonOn.style.display = "none"
+                buttonOff.style.display = "block"
+            }
+        }        
+
+        
+    </script>
+</body>
+</html>

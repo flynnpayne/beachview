@@ -1,6 +1,11 @@
 # Exmouth View Hotel
 
-![Screenshot of the website](final_site.png)
+## Old website
+
+![Screenshot of the old website](old_site.png)
+
+## Improved website
+![Screenshot of the improved website](final_site.png)
 
 [View Live](https://exmouthview.flynnp4yne.com/)
 

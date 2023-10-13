@@ -5,7 +5,7 @@
 ![Screenshot of the old website](old_site.png)
 
 ## Improved website
-![Screenshot of the improved website](final_site.png)
+
 
 [View Live](https://beachview.flynnp4yne.com/)
 

@@ -1,4 +1,4 @@
-# Exmouth View Hotel
+# Beach View Hotel
 
 ## Old website
 
@@ -7,7 +7,7 @@
 ## Improved website
 ![Screenshot of the improved website](final_site.png)
 
-[View Live](https://exmouthview.flynnp4yne.com/)
+[View Live](https://beachview.flynnp4yne.com/)
 
 Beach View Hotel is a website created for an assignment at Ara Institute of Canterbury. The main goals of this project were to improve on an existing website and make it more user friendly using User Experience principles. I had to identify five issues on four different pages, then state why it is an issue and how to fix it. I then had to recreate the website in HTML and CSS from scratch.
 
